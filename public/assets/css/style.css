@@ -756,6 +756,7 @@ section {
 .courses .course-content h3 {
   font-weight: 700;
   font-size: 20px;
+  font-family: salsa;
 }
 
 .courses .course-content h3 a {

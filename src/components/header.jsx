@@ -5,7 +5,7 @@ const Header = () => {
         <header id="header" className="fixed-top">
             <div className="container d-flex align-items-center">
                 <h1 className="logo me-auto">
-                    <a href="index.html">Aus Bangla Academia</a>
+                    <a href="index.html">Oz Bangla Academia</a>
                 </h1>
                 <nav id="navbar" className="navbar order-last order-lg-0">
                     <ul>

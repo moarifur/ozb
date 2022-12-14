@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactReadMoreReadLess from "react-read-more-read-less";
 import CollapsibleText from "@paprika/collapsible-text";
 
 
