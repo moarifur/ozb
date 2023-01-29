@@ -5,7 +5,7 @@ const Header = () => {
         <header id="header" className="fixed-top">
             <div className="container d-flex align-items-center">
                 <h1 className="logo me-auto">
-                    <a href="index.html">Oz Bangla Academia</a>
+                    <a href="index.html">Oz Bangla</a>
                 </h1>
                 <nav id="navbar" className="navbar order-last order-lg-0">
                     <ul>
@@ -20,24 +20,24 @@ const Header = () => {
                         <li>
                             <a href="courses.html">Courses</a>
                         </li>
-                        <li>
-                            <a href="trainers.html">Trainers</a>
-                        </li>
-                        <li>
-                            <a href="events.html">Events</a>
-                        </li>
-                        <li>
-                            <a href="pricing.html">Pricing</a>
-                        </li>
+                        {/*<li>*/}
+                        {/*    <a href="trainers.html">Trainers</a>*/}
+                        {/*</li>*/}
+                        {/*<li>*/}
+                        {/*    <a href="events.html">Events</a>*/}
+                        {/*</li>*/}
+                        {/*<li>*/}
+                        {/*    <a href="pricing.html">Pricing</a>*/}
+                        {/*</li>*/}
                         <li>
                             <a href="contact.html">Contact</a>
                         </li>
                     </ul>
                     <i className="bi bi-list mobile-nav-toggle" />
                 </nav>
-                <a href="courses.html" className="get-started-btn">
-                    Get Started
-                </a>
+                {/*<a href="courses.html" className="get-started-btn">*/}
+                {/*    Get Started*/}
+                {/*</a>*/}
             </div>
         </header>
 

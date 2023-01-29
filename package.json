@@ -1,5 +1,6 @@
 {
   "name": "oz-bangla-academia",
+  "homepage": "https://www.ozbangla.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +15,7 @@
     "react-multi-carousel": "^2.8.2",
     "react-read-more-read-less": "^1.0.7",
     "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.5.0",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "read-more-react": "^1.0.10",

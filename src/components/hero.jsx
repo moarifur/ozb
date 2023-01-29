@@ -12,9 +12,10 @@ const Hero = () => {
                 data-aos-delay={100}
             >
                 <h1>
-                    Learning Today,
+                    {/*It's Never too Late,*/}
+                    Start Learning Now,
                     <br />
-                    Leading Tomorrow
+                    World is Waiting...
                 </h1>
                 <h2>Build Skills &amp; Push Yourself to the Next Level</h2>
                 <a href="courses.html" className="btn-get-started">
