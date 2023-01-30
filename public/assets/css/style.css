@@ -421,9 +421,10 @@ h6 {
 
 #hero {
   width: auto;
-  height: 89vh;
-  background-size: cover;
-  background: url("../img/hero-bg.jpg") no-repeat center;
+  height: 95vh;
+  /*background-size: cover;*/
+  background-size: 10%;
+  background: url("../img/hero.jpg") center no-repeat;
   position: relative;
 }
 

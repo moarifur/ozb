@@ -13,9 +13,9 @@ const Hero = () => {
             >
                 <h1>
                     {/*It's Never too Late,*/}
-                    Start Learning Now,
+                    Develop Your Skill Now,
                     <br />
-                    World is Waiting...
+                    Tech World Needs You.
                 </h1>
                 <h2>Build Skills &amp; Push Yourself to the Next Level</h2>
                 <a href="courses.html" className="btn-get-started">

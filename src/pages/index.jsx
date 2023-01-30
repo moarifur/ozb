@@ -14,11 +14,12 @@ const Index = () => {
             <Header />
             <Hero />
             <main id="main">
-                <About />
-                {/*<Count />*/}
+
                 <WhyUs />
+                {/*<Count />*/}
                 <Courses />
                 <Trainers />
+                <About />
             </main>
             <Footer />
         </>
