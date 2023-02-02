@@ -19,7 +19,9 @@ const Hero = () => {
                 </h1>
                 <h2>Build Skills &amp; Push Yourself to the Next Level</h2>
                 <a href="courses.html" className="btn-get-started">
-                    Get Started
+                    Guaranteed Employment
+                    {/*নিশ্চিত এমপ্লয়মেন্ট*/}
+                    {/*Sure Job*/}
                 </a>
             </div>
         </section>

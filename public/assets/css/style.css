@@ -422,8 +422,7 @@ h6 {
 #hero {
   width: auto;
   height: 95vh;
-  /*background-size: cover;*/
-  background-size: 10%;
+  background-size: contain;
   background: url("../img/hero.jpg") center no-repeat;
   position: relative;
 }
@@ -456,7 +455,7 @@ h6 {
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 35px;
@@ -465,6 +464,7 @@ h6 {
   margin-top: 30px;
   border: 2px solid #fff;
   color: #fff;
+  background: #8BA080;
 }
 
 #hero .btn-get-started:hover {
@@ -638,8 +638,12 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .why-us .content {
-  padding: 30px;
-  background: #5fcf80;
+  /*padding: 30px;*/
+  background: url("../img/Why-Us.jpg") center no-repeat;
+  /*background-size: contain;*/
+  width: 356px;
+  height: 431px;
+  /*background: #5fcf80;*/
   border-radius: 4px;
   color: #fff;
 }
@@ -683,7 +687,7 @@ section {
 .why-us .icon-boxes .icon-box i {
   font-size: 32px;
   padding: 18px;
-  color: #5fcf80;
+  color: #848482;
   margin-bottom: 30px;
   background: #ecf9f0;
   border-radius: 50px;
@@ -1441,6 +1445,14 @@ section {
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #f9faf9;
+}
+
+#footer .footer-col1 {
+  padding: 0px 0 15px 0;
+}
+
+#footer .footer-col1-row2 {
+  padding: 0px 0 15px 0;
 }
 
 #footer .footer-top .footer-contact {

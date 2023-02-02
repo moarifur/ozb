@@ -4,6 +4,10 @@ const About = () => {
     return (
         <section id="about" className="about">
             <div className="container" data-aos="fade-up">
+                <div className="section-title">
+                    <h2>About Us</h2>
+                    {/*<p>Who We Are</p>*/}
+                </div>
                 <div className="row">
                     <div
                         className="col-lg-6 order-1 order-lg-2"
@@ -13,9 +17,6 @@ const About = () => {
                         <img src="assets/img/about-us.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-                        <h3>
-                            Who We Are
-                        </h3>
                         <p className="fst-italic">
                             Our team at Oz Bangla Academia is based on a group of professionals
                             who are constantly working to provide the highest quality of training
