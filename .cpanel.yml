@@ -1,6 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/ozbangla/public_html/
-    - /bin/cp -r /home/ozbangla/repositories/ozb/* $DEPLOYPATH
-    
