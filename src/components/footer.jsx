@@ -1,4 +1,6 @@
 import React from 'react';
+import { HashLink as Link } from "react-router-hash-link";
+import {NavLink} from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -16,21 +18,20 @@ const Footer = () => {
                             <h4>Useful Links</h4>
                             <ul>
                                 <li>
-                                    <i className="bx bx-chevron-right" /> <a href="#">Home</a>
+                                    <i className="bx bx-chevron-right" />
+                                    <Link smooth to="/">Home</Link>
                                 </li>
                                 <li>
-                                    <i className="bx bx-chevron-right" /> <a href="#">About us</a>
-                                </li>
-                                {/*<li>*/}
-                                {/*    <i className="bx bx-chevron-right" /> <a href="#">Services</a>*/}
-                                {/*</li>*/}
-                                <li>
-                                    <i className="bx bx-chevron-right" />{" "}
-                                    <a href="#">Terms of service</a>
+                                    <i className="bx bx-chevron-right" />
+                                    <Link smooth to="#about">About Us</Link>
                                 </li>
                                 <li>
                                     <i className="bx bx-chevron-right" />{" "}
-                                    <a href="#">Privacy policy</a>
+                                    <NavLink to="/terms">Terms of service</NavLink>
+                                </li>
+                                <li>
+                                    <i className="bx bx-chevron-right" />{" "}
+                                    <NavLink to="/privacy">Privacy policy</NavLink>
                                 </li>
                             </ul>
                         </div>
@@ -82,11 +83,7 @@ const Footer = () => {
                         . All Rights Reserved
                     </div>
                     <div className="credits">
-                        {/* All the links in the footer should remain intact. */}
-                        {/* You can delete the links only if you purchased the pro version. */}
-                        {/* Licensing information: https://bootstrapmade.com/license/ */}
-                        {/* Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ */}
-                        Developed by <a href="https://bootstrapmade.com/">Mohammad Arifur Rahman</a>
+                        Developed by <a href="https://github.com/moarifur">Mohammad Arifur Rahman</a>
                     </div>
                 </div>
                 <div className="social-links text-center text-md-right pt-3 pt-md-0">

@@ -14,7 +14,7 @@ const settings = {
 
 const Courses = () => {
     return (
-        <section id="popular-courses" className="courses">
+        <section id="courses" className="courses">
             <div className="container" data-aos="fade-up">
                 <div className="section-title">
                     <h2>Programs</h2>

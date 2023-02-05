@@ -18,30 +18,38 @@ const About = () => {
                     </div>
                     <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
                         <p className="fst-italic">
-                            Our team at Oz Bangla Academia is based on a group of professionals
-                            who are constantly working to provide the highest quality of training
-                            module to our students. As technology keeps improving exponentially, we
-                            believe with each passing day, there is always a better way to
-                            cater to our students needs.
+                            Welcome to Oz Bangla! We are a team of passionate e-learning experts
+                            dedicated to providing a comprehensive and effective learning
+                            experience to individuals and organizations. Our mission is to make
+                            education accessible to everyone, regardless of location or background,
+                            and to help our users achieve their full potential.
                         </p>
-                        <p>
-                            We're happy to help if our students who need any assistance in the
-                            domain of educational solutions — our promise is to work with you
-                            to innovate and deliver the highest quality of service!
+                        <p className="fst-italic">
+                            Our LMS is designed to meet the diverse needs of learners and trainers,
+                            offering a wide range of features and tools to support online learning,
+                            assessment, and collaboration. Our platform is easy to use, flexible,
+                            and scalable, allowing for customized learning journeys tailored to
+                            each individual user.
                         </p>
-                        <ul>
-                            <li>
-                                {/*<i className="bi bi-check-circle" />*/}
-                                 Delivering our students with premium grade learning solutions using
-                                cutting edge technologies complemented by inspiring and engaging contents.
-                            </li>
-                            <li>
-                                {/*<i className="bi bi-check-circle" />*/}
-                                 Becoming a benchmark in the global learning industry in providing high
-                                performance premium grade training, courses and workshops to elevate students
-                                satisfaction and experience.
-                            </li>
-                        </ul>
+                        <p className="fst-italic">
+                            We believe that technology has the power to transform education and we are
+                            committed to delivering innovative and effective solutions to support the
+                            ongoing learning and development of our users. Thank you for choosing our
+                            LMS and we look forward to supporting you on your learning journey.
+                        </p>
+                        {/*<ul>*/}
+                        {/*    <li>*/}
+                        {/*        /!*<i className="bi bi-check-circle" />*!/*/}
+                        {/*         Delivering our students with premium grade learning solutions using*/}
+                        {/*        cutting edge technologies complemented by inspiring and engaging contents.*/}
+                        {/*    </li>*/}
+                        {/*    <li>*/}
+                        {/*        /!*<i className="bi bi-check-circle" />*!/*/}
+                        {/*         Becoming a benchmark in the global learning industry in providing high*/}
+                        {/*        performance premium grade training, courses and workshops to elevate students*/}
+                        {/*        satisfaction and experience.*/}
+                        {/*    </li>*/}
+                        {/*</ul>*/}
                     </div>
                 </div>
             </div>

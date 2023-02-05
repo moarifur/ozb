@@ -1,39 +1,36 @@
 import React from 'react';
-
+import { HashLink as Link } from "react-router-hash-link";
+import {NavLink} from "react-router-dom";
 const Header = () => {
+
     return (
         <header id="header" className="fixed-top">
             <div className="container d-flex align-items-center">
                 <h1 className="logo me-auto">
-                    <a href="index.html">Oz Bangla</a>
+                    <NavLink to="/">
+                        OZ Bangla
+                        {/*<img src="assets/img/logo.jpg" width='150' height='150'/>*/}
+                    </NavLink>
                 </h1>
                 <nav id="navbar" className="navbar order-last order-lg-0">
                     <ul>
                         <li>
-                            <a className="active" href="index.html">
-                                Home
-                            </a>
+                            <Link smooth to="#">Home</Link>
                         </li>
                         <li>
-                            <a href="courses.html">Why Us</a>
+                            <Link smooth to="#why-us">Why Us</Link>
                         </li>
                         <li>
-                            <a href="courses.html">Courses</a>
+                            <Link smooth to="#courses">Courses</Link>
                         </li>
                         <li>
-                            <a href="trainers.html">Trainers</a>
-                        </li>
-                        {/*<li>*/}
-                        {/*    <a href="events.html">Events</a>*/}
-                        {/*</li>*/}
-                        {/*<li>*/}
-                        {/*    <a href="pricing.html">Pricing</a>*/}
-                        {/*</li>*/}
-                        <li>
-                            <a href="about.html">About Us</a>
+                            <Link smooth to="#trainers">Trainers</Link>
                         </li>
                         <li>
-                            <a href="contact.html">Contact</a>
+                            <Link smooth to="#about">About Us</Link>
+                        </li>
+                        <li>
+                            <Link smooth to="#footer">Contact</Link>
                         </li>
                     </ul>
                     <i className="bi bi-list mobile-nav-toggle" />
@@ -48,3 +45,6 @@ const Header = () => {
 };
 
 export default Header;
+
+
+

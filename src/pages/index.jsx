@@ -14,7 +14,6 @@ const Index = () => {
             <Header />
             <Hero />
             <main id="main">
-
                 <WhyUs />
                 {/*<Count />*/}
                 <Courses />
